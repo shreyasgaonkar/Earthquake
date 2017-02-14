@@ -14,7 +14,7 @@ var earthquakes;
 
 function preload() {
 	mapimp = loadImage("https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/0,0,1,0,0/1024x512?access_token=pk.eyJ1Ijoic2hyZXlhc2dhb25rYXIiLCJhIjoiY2l6NHV2MGN5MDEwczJ3b3QzZ3BtNG9xYSJ9.yhFT5jNrtUnxmeLDZAoI3g");
-    earthquakes = loadStrings("http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv");
+    earthquakes = loadStrings("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv");
 }
 
 function mercX(lon){
